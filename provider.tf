@@ -6,7 +6,7 @@ terraform {
     }
 
     azapi = {
-      source  = "hashicorp/azapi"
+      source  = "Azure/azapi"
       version = "1.15.0"
     }
   }
@@ -16,3 +16,7 @@ provider "azurerm" {
   subscription_id = "ba85ac8f-51e0-413f-80a5-d6ab685dbd51"
   features {}
 }
+#
+# provider "azapi" {
+#   # Configuration options
+# }
